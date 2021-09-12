@@ -1,0 +1,35 @@
+.header{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul{
+    display: flex;
+}
+
+.top-logo{
+    margin-left: 100px;
+    margin-top: 48px;
+    padding-right: 252px;
+}
+
+.header__nav-item{
+    margin-top: 48px;
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+.header__contact{
+    background: #FFFFFF;
+    width: 90px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #606B74;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 48px;
+    margin-right: 206px;
+}
+

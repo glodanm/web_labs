@@ -1,0 +1,51 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    display: block;
+}
+
+button{
+    border: 5;
+}
+
+.container1{
+    margin: 0 auto;
+    max-width: 1000px;
+    max-height: 571px;
+}
+
+.container2{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 400px;
+}
+
+.container3{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 313px;
+    background: #646D70;
+}
+
+.container4{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 532px;
+}
+
+.footer{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 88px;
+    background: #222F33;
+}
+
