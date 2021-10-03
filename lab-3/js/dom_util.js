@@ -13,7 +13,7 @@ const getItemId = (id) => `item-${id}`;
 const itemTemplate = ({ id, name, age, height, price }) => `
 <li id="${getItemId(id)}" class="card mb-3 item-card" draggable="true">
     <img
-      src="https://www.netclipart.com/pp/m/22-227272_vehicle-clipart-big-car-black-car-clipart-png.png"
+      src="https://www.kindpng.com/picc/m/328-3283141_thumb-image-entertainment-png-transparent-png.png"
       class="item-container__image card-img-top" 
       alt="card"
     />
