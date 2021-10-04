@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 100px 0 100px;
+}
+
+.header a:hover {
+  color: #606b74;
+}
+
+.menu-icon{
+  display: none;
+}
+
+@media (max-width: 740px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .menu-icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: -75px;
+    margin-bottom: -28px;
+}
+.header-menu { 
+  display: block; 
+} 
+
+.header-nav {
+  padding-right: 30px;
+  background: gray; 
+  position: fixed; 
+  top: 60px; 
+  left: 0; 
+  right: 0px; 
+  bottom: 0; 
+  margin-top: 0; 
+  clip-path: circle(0 at top left); 
+  transition: clip-path 0.9s ease-in; 
+} 
+
+.header-nav.open { 
+  clip-path: circle(1000px at top); 
+} 
+
+.header-nav ul { 
+  margin-top: 30px;
+  font-size: 20px;
+  flex-direction: column; 
+  height: 75%; 
+}
+
+  /* .header-nav {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #222f33;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .header-nav ul {
+    height: 320px;
+    flex-direction: column;
+  }
+
+  .header-nav li {
+    margin-left: 0;
+  }
+
+  .header-nav a {
+    font-size: 18px;
+    justify-content: center;
+  } */
+
+  .header-nav a:not(.contact):hover {
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+
+  header-nav.open {
+    display: flex;
+  }
+
+  .contact {
+    height: 100%;
+  }
+}
