@@ -1,0 +1,29 @@
+.footer {
+    margin-top: -150px; 
+}
+
+.footer a{
+    font-size: 12px;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-top: 30px;
+}
+
+.email {
+    margin-left: 50px;
+    margin-right: 257px;
+
+}
+
+.cookies {
+    margin-left: 200px;
+    padding-right: 30px;
+}
+
+.privacybeleid{
+    margin-right: 50px;
+}
+
