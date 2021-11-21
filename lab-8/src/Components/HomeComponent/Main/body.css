@@ -1,0 +1,88 @@
+/* Body section */
+
+.hero-main{
+    padding-top: 30px;
+}
+
+.hero-image{
+    width: 600px;
+    margin-right: 700px;
+    margin-top: -400px;
+}
+
+.hero-main-text{
+    width: 300px;
+    margin-left: 800px;
+}
+
+.hero-title{
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.hero-paragraph{
+    font-size: 18px;
+}
+
+
+/* Tile section */
+
+.tile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.amusement-img{
+    width: 290px;
+}
+
+.entertainment{
+    border: 2px solid;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.tile-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tile-subtitle{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-view-more{
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 35px;
+    font-family: 'Dongle';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
